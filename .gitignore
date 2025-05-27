@@ -1,0 +1,28 @@
+# Ignore everything in node_modules folders (recursively)
+**/node_modules/
+
+# Ignore .next build directories (recursively for all Next.js apps)
+**/.next/
+
+# Ignore environment variable files
+**/.env
+**/.env.*
+
+# Ignore log files
+**/*.log
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore temp and cache folders
+**/.turbo/
+**/.cache/
+
+# Ignore output folders (if any)
+**/out/
+
+# Ignore lock files (optional, if you're using only one lock system)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
